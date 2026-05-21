@@ -1,79 +1,90 @@
 *{
-	margin:0;
-	padding:0;
-	font-family: "Times New Roman", Times, serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-img{
-	width:50%;
-	max-width:200px;
-	
-}body{
+
+body{
     font-family: Arial, sans-serif;
-    line-height:1.6;		
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    line-height: 1.6;
 }
+
+
+h1, h2, h3{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+h1{
+    color: #0077cc;
+}
+
 
 table{
     width: 100%;
+    max-width: 900px;
+    margin: 20px auto;
     border-collapse: collapse;
-    margin-bottom: 20px;
-    text-align:center;
-    margin:30px 30px;
+    background-color: white;
 }
 
 table, th, td{
-    border: 1px solid #333;
-}
-
-th{
-    background-color: #78cef7;
-}
-td{
-    background-color: #f0f5f4;
-}
-td:hover{
-    background-color: rgb(96, 173, 218);
+    border: 1px solid #ccc;
 }
 
 th, td{
-    padding: 10px;
+    padding: 12px;
 }
 
-.main-infor{
+
+.avt{
+    width: 250px;
+    text-align: center;
+}
+
+.avt img{
+    width: 180px;
     border-radius: 10px;
-    overflow: hidden;
 }
 
-img{
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
+
+.infor{
+    padding: 20px;
 }
+
+
+ul, ol{
+    max-width: 700px;
+    margin: 10px auto 20px;
+    padding-left: 40px;
+    background-color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+}
+
 
 .social{
-    color: #f2f2f2;
-    height: 50px;
-    border-radius: 5px;
-    margin: 10px 20px;
-    cursor: pointer;
-    border: 1px solid #ddd;
-    background-color: #169c9c;
-    padding: 10px 20px;
-    transition: 0.3s;
-    font-size: 18px;
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
     border: none;
-}
-.social:hover{
-    background: #0eb994;
-    transform: scale(1.05);
+    border-radius: 5px;
+    background-color: #0077cc;
+    cursor: pointer;
 }
 
-.container{
-    background-color: #f0a3a3;
-}
-a{
+.social a{
+    color: white;
     text-decoration: none;
-    color: #fff;
+    font-weight: bold;
 }
-h1,h2,h3,li{
-    text-align:center;
+
+
+.social:hover{
+    background-color: #005fa3;
 }
