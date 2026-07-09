@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+}
+
+.product-price {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.text-truncate-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+.card-img-top {
+    object-fit: cover;
+}
+
+.product-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.product-info .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+}
+
+.product-info h5 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.btn-danger,
+.btn-outline-info {
+    border-radius: 4px;
+}
+
+#quantity {
+    border-radius: 4px;
+}

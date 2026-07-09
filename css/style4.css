@@ -1,0 +1,87 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+.container::before {
+    content: "HÓA ĐƠN THANH TOÁN";
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+th {
+    background-color: #2980b9;
+    color: #ffffff;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 12px 15px;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+}
+
+td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #555;
+}
+
+tr:hover td {
+    background-color: #f8f9fa;
+}
+
+td:nth-child(1), 
+td:nth-child(4), 
+td:nth-child(5) {
+    text-align: center;
+}
+
+.dongia, .thanhtien {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+tr:last-child {
+    font-weight: bold;
+    background-color: #ecf0f1;
+}
+
+tr:last-child td:first-child {
+    text-align: right;
+    color: #2c3e50;
+    font-size: 16px;
+    border-bottom: none;
+}
+
+#thanhtoan {
+    color: #c0392b;
+    font-size: 18px;
+    text-align: right;
+    border-bottom: none;
+}

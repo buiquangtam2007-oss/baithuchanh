@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fafafa;
+    color: #333;
+    margin: 0;
+}
+
+.shop-header {
+    padding: 40px 20px 30px;
+    text-align: center;
+}
+
+.shop-header h1 {
+    font-size: 2rem;
+    color: #2e2e2e;
+    margin-bottom: 8px;
+}
+
+.shop-header .eyebrow {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 0.8rem;
+    color: #888;
+}
+
+.shop-header .subtitle {
+    color: #777;
+    font-size: 0.95rem;
+}
+
+.product-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.product-item {
+    border: 1px solid #e0e0e0;
+    border-radius: 6px;
+    background-color: #fff;
+    height: 100%;
+    overflow: hidden;
+}
+
+.product-image img {
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 16px;
+}
+
+.product-info .card-title {
+    font-size: 1.15rem;
+    color: #2e2e2e;
+    margin-bottom: 6px;
+}
+
+.product-info .price {
+    color: #d9534f;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.product-info .description {
+    font-size: 0.85rem;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 14px;
+
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Nút xem chi tiết */
+.btn-detail {
+    display: inline-block;
+    padding: 6px 14px;
+    background-color: #5a7d5a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.btn-detail:hover {
+    background-color: #46664a;
+    color: #fff;
+}
